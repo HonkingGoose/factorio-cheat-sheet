@@ -4,8 +4,8 @@ import { Ratio } from './ratio.model';
 
 export const ROCKET_RATIO_DATA: Ratio[] = [
   {
-    description: 'Rocket Components Ratio With No Satellite',
-    name: 'Rocket Comp. Ratio',
+    description: 'Rocket components (no satellite)',
+    name: 'Rocket components (no satellite)',
     source:
       'https://kirkmcdonald.github.io/calc.html#rate=s&buildings=assembling-machine-3&items=rocket-part:r:1/4',
     ratio: [
@@ -32,8 +32,8 @@ export const ROCKET_RATIO_DATA: Ratio[] = [
     ],
   },
   {
-    description: 'Rocket Components Ratio With Satellite',
-    name: 'Rocket Comp. Ratio w/ Sat',
+    description: 'Rocket components (with satellite)',
+    name: 'Rocket components (with satellite)',
     source:
       'https://kirkmcdonald.github.io/calc.html#rate=s&buildings=assembling-machine-3&items=space-science-pack:r:5/2',
     ratio: [
@@ -60,8 +60,8 @@ export const ROCKET_RATIO_DATA: Ratio[] = [
     ],
   },
   {
-    description: 'Rocket Components Moduled Ratio With Satellite',
-    name: 'Rocket Comp. Module Ratio w/ Sat',
+    description: 'Rocket components (moduled, with satellite)',
+    name: 'Rocket components (moduled, with satellite)',
     source:
       'https://kirkmcdonald.github.io/calc.html#rate=s&buildings=assembling-machine-3&items=space-science-pack:r:5/2&modules=rocket-part:p3:p3:p3:p3;se:se:1',
 

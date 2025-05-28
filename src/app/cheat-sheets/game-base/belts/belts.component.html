@@ -3,20 +3,8 @@
     <div class="col-12 col-md-7">
       <p>
         See
-        <a href="https://wiki.factorio.com/Belt_transport_system" target="_blank" rel="noopener"> Belt Transport System </a>
+        <a href="https://wiki.factorio.com/Belt_transport_system" target="_blank" rel="noopener"> Belt transport system </a>
         for all relevant belt information.
-      </p>
-      <p>
-        <strong>
-          <a href="https://wiki.factorio.com/Transport_belt" target="_blank" rel="noopener"> Transport Belt </a>
-          Throughput
-        </strong>
-        - Items per second (i/s) passed over one belt tile.
-        <br />
-        <strong>Transport Belt Density</strong>
-        - Maximum items that fit in one tile:
-        <strong>{{ BELT_DATA.beltDensity }} items</strong>
-        for all belts.
       </p>
 
       <table class="table table-sm table-hover fixed-width">
@@ -26,12 +14,12 @@
             <th>
               Throughput
               <br />
-              (Both Sides)
+              (both sides)
             </th>
             <th>
               Underground
               <br />
-              Spacing
+              spacing
             </th>
           </tr>
         </thead>
@@ -43,7 +31,7 @@
             </td>
             <td>
               {{ item.throughput | number : '1.0-3' }}
-              i/s
+              items per second
             </td>
             <td>
               {{ item.undergroundSpacing }}
@@ -56,16 +44,15 @@
 
     <div class="col-12 col-md-5 text-center">
       <p>
-        All belts can hold up to
-        <strong>{{ BELT_DATA.beltDensity }} items</strong>
-        on each tile.
+        All belts hold up to
+        {{ BELT_DATA.beltDensity }} items on each tile.
       </p>
       <img
         class="img-fluid rounded"
         loading="lazy"
         src="{{ APP_INFO.links.getLocalImagePath('belt-signal-circuit.webp') }}"
-        alt="Transport Belt Signal"
-        title="Transport Belt Signal"
+        alt="Transport belt signal"
+        title="Transport belt signal"
       />
     </div>
   </div>
@@ -73,7 +60,7 @@
   <br />
   <p id="bus">
     Its common to stack belts to form a
-    <a href="https://wiki.factorio.com/Tutorial:Main_bus" target="_blank" rel="noopener">Main Bus</a>. <br />
+    <a href="https://wiki.factorio.com/Tutorial:Main_bus" target="_blank" rel="noopener">main bus</a>. <br />
     To learn more about the main bus concept, you can watch these playlists:
     <a href="https://www.youtube.com/watch?v=e9LSMqCRsd0&list=PLwehwVVQirAep2XwjX1IoJR4XIqU4eUCH&index=2" target="_blank" rel="noopener"
       >Xterminator</a
@@ -89,14 +76,14 @@
   </p>
   <div class="row align-items-center">
     <div class="col-12 align-items-center text-center">
-      <!-- <strong>Main Bus</strong> <br> -->
+      <!-- <strong>Main bus</strong> <br> -->
       <a href="{{ APP_INFO.links.getLocalImagePath('bus.webp') }}" target="_blank" rel="noopener">
         <img
           class="img-fluid rounded limit-img-height"
           loading="lazy"
           src="{{ APP_INFO.links.getLocalImagePath('bus.webp') }}"
-          alt="Main Bus"
-          title="Main Bus"
+          alt="Main bus"
+          title="Main bus"
         />
       </a>
     </div>
@@ -106,33 +93,33 @@
 
   <div class="row align-items-center justify-content-around">
     <div class="col-12 col-sm-6 col-lg-4 col-print-4 text-center">
-      <strong>Underground belts can be side loaded</strong><br />
+      Underground belts can be side loaded:<br />
       <img
         class="img-fluid rounded limit-img-height"
         loading="lazy"
         src="{{ APP_INFO.links.getLocalImagePath('belt-tip-side-load.webp') }}"
-        alt="Side Load Underground"
-        title="Side Load Underground"
+        alt="Side load underground"
+        title="Side load underground"
       />
     </div>
     <div class="col-12 col-sm-6 col-lg-4 col-print-4 text-center">
-      <strong>Splitters can filter items</strong><br />
+      Splitters can filter items:<br />
       <img
         class="img-fluid rounded limit-img-height"
         loading="lazy"
         src="{{ APP_INFO.links.getLocalImagePath('belt-tip-filter.webp') }}"
-        alt="Splitter Filter"
-        title="Splitter Filter"
+        alt="Splitter filter"
+        title="Splitter filter"
       />
     </div>
     <div class="col-12 col-sm-6 col-lg-4 col-print-4 text-center">
-      <strong>Belts can be woven</strong><br />
+      Belts can be woven:<br />
       <img
         class="img-fluid rounded limit-img-height"
         loading="lazy"
         src="{{ APP_INFO.links.getLocalImagePath('belt-weaving.webp') }}"
-        alt="Woven Belts"
-        title="Woven Belts"
+        alt="Woven belts"
+        title="Woven belts"
       />
     </div>
   </div>

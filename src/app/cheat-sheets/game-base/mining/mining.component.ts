@@ -56,7 +56,7 @@ const miningTableColumns: MineTableColumn[] = [
       type: belt.spaceAge ? 'FactorioSaIcon' : FactorioIcons,
     })
   ),
-  { name: 'Mine Rate', type: 'Text' },
+  { name: 'Mining rate', type: 'Text' },
 ];
 
 const mineTableRowGroups: Map<string, MineTableRowGroup> = new Map();

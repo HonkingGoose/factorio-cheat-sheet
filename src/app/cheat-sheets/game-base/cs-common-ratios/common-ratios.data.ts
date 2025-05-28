@@ -234,7 +234,7 @@ const _ELECTRONICS_RATIOS: Ratio[] = [
     source:
       'https://kirkmcdonald.github.io/calc.html#rate=s&min=4&items=advanced-circuit:f:6',
     name: '',
-    description: "Doesn't take into account Wire for GC",
+    description: "Doesn't take into account Wire for GC.",
     ratio: [
       {
         machineIconId: FactorioIcons.Icons_AssemblingMachine3,
@@ -263,7 +263,7 @@ const _ELECTRONICS_RATIOS: Ratio[] = [
     source:
       'https://kirkmcdonald.github.io/calc.html#rate=s&min=4&items=processing-unit:f:5',
     name: '',
-    description: "Doesn't take into account GC for RC",
+    description: "Doesn't take into account GC for RC.",
     ratio: [
       {
         machineIconId: FactorioIcons.Icons_AssemblingMachine3,
@@ -310,7 +310,7 @@ const _ELECTRONICS_RATIOS: Ratio[] = [
     source:
       'https://kirkmcdonald.github.io/calc.html#rate=s&min=4&items=speed-module-3:f:2',
     name: '',
-    description: 'Same for Other Modules',
+    description: 'Ratios are the same for other modules.',
     ratio: [
       {
         machineIconId: FactorioIcons.Icons_AssemblingMachine3,
